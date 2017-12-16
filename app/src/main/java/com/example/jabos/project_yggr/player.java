@@ -1,5 +1,6 @@
 package com.example.jabos.project_yggr;
 
+import android.graphics.Rect;
 import android.media.Image;
 
 /**
@@ -8,6 +9,12 @@ import android.media.Image;
 
 public class player {
 
+    player(){
+        _inAir = false;
+        _timeInAir = 0;
+        _posY = 100;
+
+    }
 
     public void set_sprite (Image _sprite) {
         this._sprite = _sprite;
@@ -25,7 +32,23 @@ public class player {
         this._posY = _posY;
     }
 
+    public void jump() {
+        if (!_inAir) {
+            //jump logic
+            _inAir = true;
+        }
+    }
 
-    private Image _sprite;
+    public Boolean colision(object Rect) {
+
+        _playerShape.
+        return true;
+    }
+
+    private short _timeInAir;
+    private Rect _playerShape;
+    private final Integer _posX = 100;
     private Integer _posY;
+    private Boolean _inAir;
+
 }

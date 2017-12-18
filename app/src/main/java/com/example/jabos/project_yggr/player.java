@@ -39,12 +39,9 @@ public class player {
         }
     }
 
-    public Boolean colision(object Rect) {
 
-        _playerShape.
-        return true;
-    }
 
+    private Image _sprite;
     private short _timeInAir;
     private Rect _playerShape;
     private final Integer _posX = 100;

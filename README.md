@@ -26,3 +26,9 @@ After choosing gamemode a counter starts to let the player get ready, and when t
 The player can controll the character in a few different ways such as jumping, shooting projectiles and shifting the gravity.
 
 (To be continued)
+
+---
+
+# Concept
+
+![](https://github.com/FilipAndersson245/Project-Yggr/blob/master/documentation/simple_concept.png)
